@@ -1,0 +1,7 @@
+venv/
+.idea/
+**/__pycache__
+start_docker_app
+Dockerfile
+logs/example.log
+output_reports/example.csv

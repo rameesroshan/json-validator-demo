@@ -1,0 +1,126 @@
+{
+  "$schema":"http://json-schema.org/draft-04/schema#",
+  "title":"TaxFix Events",
+  "description":"User events json",
+  "type":"object",
+  "properties":{
+      "id": {
+         
+         "type":"string"
+      },
+      "received_at": {
+         
+         "type":"string"
+      },
+      "anonymous_id": {
+         
+         "type":"string"
+      },
+      "context_app_version": {
+         
+         "type":"string"
+      },
+      "context_device_ad_tracking_enabled": {
+         
+         "type":"boolean"
+      },
+      "context_device_manufacturer": {
+         
+         "type":"string"
+      },
+      "context_device_model": {
+         
+         "type":"string"
+      },
+      "context_device_type": {
+         
+         "type":"string"
+      },
+      "context_locale": {
+         
+         "type":"string"
+      },
+      "context_library_name": {
+         
+         "type":"string"
+      },
+      "context_library_version": {
+         
+         "type":"string"
+      },
+      "context_network_wifi": {
+         
+         "type":"boolean"
+      },
+      "context_os_name": {
+         
+         "type":"string"
+      },
+      "context_timezone": {
+         
+         "type":"string"
+      },
+      "event": {
+         
+         "type":"string"
+      },
+      "event_text": {
+         
+         "type":"string"
+      },
+      "original_timestamp": {
+         
+         "type":"string"
+      },
+      "sent_at": {
+         
+         "type":"string"
+      },
+      "timestamp": {
+         
+         "type":"string"
+      },
+      "user_id": {
+         
+         "type":"string"
+      },
+      "context_network_carrier": {
+         
+         "type":"string"
+      },
+      "context_device_token": {
+         
+         "type":["string", "null"]
+      },
+      "context_traits_taxfix_language": {
+         
+         "type":"string"
+      }
+  },
+  "required":[
+    "id",
+    "received_at",
+    "anonymous_id",
+    "context_app_version",
+    "context_device_ad_tracking_enabled",
+    "context_device_manufacturer",
+    "context_device_model",
+    "context_device_type",
+    "context_locale",
+    "context_network_wifi",
+    "context_os_name",
+    "context_library_name",
+    "context_library_version",
+    "context_timezone",
+    "event",
+    "event_text",
+    "original_timestamp",
+    "sent_at",
+    "timestamp",
+    "user_id",
+    "context_network_carrier",
+    "context_device_token",
+    "context_traits_taxfix_language"
+
+    ]
+}

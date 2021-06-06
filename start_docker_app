@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+if [ $# -eq 0 ]
+  then
+    echo "No arguments supplied  [ Syntax eg: bash start_docker_app demoapp ]"
+    exit 1
+fi
+
+APP_NAME=$1
+docker image build -t json-validator-ramees:demo .
+docker run -dit --name $APP_NAME json-validator-ramees:demo
+docker exec -it $APP_NAME bash
