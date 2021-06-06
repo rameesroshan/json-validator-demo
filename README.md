@@ -26,10 +26,11 @@ The script will build the docker image, run the docker container and log in to t
 
     $ bash start_docker_app demoapp
  The python package and other depenedencies will be installed inside the container.
-###  Run the Validator
-Enter the following command in the container command line to run the validator and generate report:
+##  Run the Validator Package
+Enter the following command inside the container to run the schema validator and generate report:
 
     $ run-validator
+    
 The sample input file contains a total of 15 json records- 13 with valid schema and 2 with invalid schema for which the validation should fail.
 ## Testing
 
