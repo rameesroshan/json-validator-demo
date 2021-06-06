@@ -1,0 +1,34 @@
+2021-06-06 05:00:26,448 | jsonvalidator.__main__ | INFO | Starting JSON document validator!!
+2021-06-06 05:00:26,448 | jsonvalidator.validate | INFO | Loading data from file: /jsonvalidator/data/input.json
+2021-06-06 05:00:26,448 | jsonvalidator.validate | INFO | Loading schema from file: /jsonvalidator/schemas/input_schema.json
+2021-06-06 05:00:26,451 | jsonvalidator.utils | INFO | Input JSON document is valid, document_id:FB16866D-AE4D-416F-8848-122B07DA42F5
+2021-06-06 05:00:26,457 | jsonvalidator.utils | INFO | Event name: submission_success  Event date: 2018-01-30
+2021-06-06 05:00:26,459 | jsonvalidator.utils | INFO | Input JSON document is valid, document_id:AED96FC7-19F1-46AB-B79F-D412117119BD
+2021-06-06 05:00:26,459 | jsonvalidator.utils | INFO | Event name: registration_initiated  Event date: 2018-01-30
+2021-06-06 05:00:26,461 | jsonvalidator.utils | INFO | Input JSON document is valid, document_id:TF16866D-MB58-486F-3609-642B07DNH4F5
+2021-06-06 05:00:26,462 | jsonvalidator.utils | INFO | Event name: submission_success  Event date: 2018-01-30
+2021-06-06 05:00:26,465 | jsonvalidator.utils | INFO | Input JSON document is valid, document_id:AGM96FC7-19V1-46AB-F4B2-D412117119BD
+2021-06-06 05:00:26,465 | jsonvalidator.utils | INFO | Event name: registration_initiated  Event date: 2018-01-30
+2021-06-06 05:00:26,468 | jsonvalidator.utils | ERROR | Skipping document with invalid schema. Validation Error: ['context_library_name' is a required property]
+2021-06-06 05:00:26,471 | jsonvalidator.utils | ERROR | Skipping document with invalid schema. Validation Error: ['context_app_version' is a required property]
+2021-06-06 05:00:26,473 | jsonvalidator.utils | INFO | Input JSON document is valid, document_id:FB16866D-AE4D-416F-8848-122BH%FA42F5
+2021-06-06 05:00:26,473 | jsonvalidator.utils | INFO | Event name: submission_success  Event date: 2018-01-31
+2021-06-06 05:00:26,476 | jsonvalidator.utils | INFO | Input JSON document is valid, document_id:96FC7DG5-19F1-46AB-B79F-D412117119BD
+2021-06-06 05:00:26,476 | jsonvalidator.utils | INFO | Event name: registration_initiated  Event date: 2018-01-31
+2021-06-06 05:00:26,479 | jsonvalidator.utils | INFO | Input JSON document is valid, document_id:TF16866D-MB58-486F-3609-642B07DNH4F5
+2021-06-06 05:00:26,479 | jsonvalidator.utils | INFO | Event name: submission_success  Event date: 2018-01-31
+2021-06-06 05:00:26,482 | jsonvalidator.utils | INFO | Input JSON document is valid, document_id:FB16866D-AE4D-49BF-8848-122B07DA42F5
+2021-06-06 05:00:26,483 | jsonvalidator.utils | INFO | Event name: submission_success  Event date: 2018-02-01
+2021-06-06 05:00:26,488 | jsonvalidator.utils | INFO | Input JSON document is valid, document_id:NBT96FC7-19G1-32AB-B70D-D400117119BD
+2021-06-06 05:00:26,488 | jsonvalidator.utils | INFO | Event name: registration_initiated  Event date: 2018-02-01
+2021-06-06 05:00:26,490 | jsonvalidator.utils | INFO | Input JSON document is valid, document_id:PT16866D-AE4D-411F-8848-122B07DA42F5
+2021-06-06 05:00:26,491 | jsonvalidator.utils | INFO | Event name: submission_success  Event date: 2018-02-02
+2021-06-06 05:00:26,493 | jsonvalidator.utils | INFO | Input JSON document is valid, document_id:CRT96FY7-19F1-46VG-B79F-D412117119BD
+2021-06-06 05:00:26,494 | jsonvalidator.utils | INFO | Event name: registration_initiated  Event date: 2018-02-02
+2021-06-06 05:00:26,496 | jsonvalidator.utils | INFO | Input JSON document is valid, document_id:WEC96FM7-13F1-46AB-B79F-D412117119BD
+2021-06-06 05:00:26,496 | jsonvalidator.utils | INFO | Event name: registration_initiated  Event date: 2018-02-02
+2021-06-06 05:00:26,499 | jsonvalidator.utils | INFO | Input JSON document is valid, document_id:BNI96FBV-19DT-46AB-B79F-D412117119BD
+2021-06-06 05:00:26,499 | jsonvalidator.utils | INFO | Event name: registration_initiated  Event date: 2018-02-02
+2021-06-06 05:00:26,499 | jsonvalidator.reports | INFO | Wrting report to CSV file
+2021-06-06 05:00:26,500 | jsonvalidator.utils | INFO | CSV report generated: report_2021-06-06_05:00:26.csv
+2021-06-06 05:00:26,500 | jsonvalidator.__main__ | INFO | Finished JSON validator. Total time taken: 52.02436447143555 ms

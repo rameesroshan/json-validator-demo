@@ -1,10 +1,14 @@
+![Python](https://img.shields.io/badge/python-v3.6+-blue.svg)
+
+
+
 # JSON Schema Validator 
 
-The python library can validate the schema of json records, log validation failures and generate report of user events.
+Python package to validate the schema of json records, log validation failures and generate report of user events.
 
  - The sample input file is located inside `data/`
  - Schema file for the sample input is stored inside `schemas/`. The schema definition is  based on the json records in the `input.json` file, which came with the take home task.
- - The reports are generated in CSV format and stored inside `reports/`
+ - The reports are generated in CSV format and stored inside `output_reports/`
  - The logs are written to the file `logs/validator.log`
 
 ## Setup Instructions
@@ -20,7 +24,7 @@ The script will build the docker image, run the docker container and log in to t
 
 ##### Example
 
-     $ bash start_docker_app demoapp
+    $ bash start_docker_app demoapp
  The python package and other depenedencies will be installed inside the container.
 ###  Run the Validator
 Enter the following command in the container command line to run the validator and generate report:
@@ -35,5 +39,5 @@ the **pytest** framework is used for running the tests.
 
 To run the test suite, execute the command inside the docker container:
 
-    $ pytest
+    pytest
 
